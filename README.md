@@ -2,10 +2,15 @@
 
 This project includes the feaatures that are mentionated below:
 
-- **Bluprint classes implementation** helps with the automatization of different objects with the same behavior.
+- **Bluprint classes implementation**: helps with the automatization of different objects with the same behavior.
 - **Timeline Animation**: with timeline Blueprints.
+- **C++ implementation**
+- **Foliage**: improves the aspect of the level with decorations.
+- **Modeling**: change the aspect of a mesh to apply in this particular case.
+- **Level Design**: build levels for a top down perspective.
+- **Navigation meshh**: apply a modified navigation for respect the gameplay and level design.
 
-> This project serves as a **sandbox for practicing animation retargeting, locomotion blending, and character replacement**. Assets and setups are for demonstration purposes only.
+> This project serves as a **practice and improvement for my blueprint, level design, C++ in UE5, foliage, modeling and others skills**. Assets and setups are for demonstration purposes only.
 
 ---
 
