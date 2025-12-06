@@ -16,7 +16,7 @@ This project includes the feaatures that are mentionated below:
 
 ## Demo Video 📹
 
-Watch a short demo of the character and animations here:
+Watch a short video with the gameplay of this project:
 
 <p align="center">
   <video width="400" src="" type="video/mp4" controls autoplay loop></video>
