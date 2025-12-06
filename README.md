@@ -14,7 +14,7 @@ This project includes the feaatures that are mentionated below:
 Watch a short demo of the character and animations here:
 
 <p align="center">
-  <video width="400" src="https://github.com/user-attachments/assets/996849aa-a819-47ee-ad66-5348fa7baa80" type="video/mp4" controls autoplay loop></video>
+  <video width="400" src="" type="video/mp4" controls autoplay loop></video>
 </p>
 
 ---
