@@ -23,4 +23,12 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	// Access to a variable or a function in unreal and blueprints
+	// The category can be also without a subcategory, for example: Movement | Physics
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement | Physics")
+	UStaticMesh* MyMesh;
+
+	// Important: for Unreal management you need to put UPROPERTY
+	UPROPERTY(EditAnywhere)
+	UStaticMesh* MyOldMesh;
 };

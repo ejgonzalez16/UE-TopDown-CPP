@@ -15,7 +15,20 @@ AMyActor::AMyActor()
 void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	if (MyMesh) {
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, MyMesh->GetName());
+	}
+
+	if (MyOldMesh) {
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Blue, MyOldMesh->GetName());
+	}
+
+	MyOldMesh = MyMesh;
+
+	if (MyOldMesh) {
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, MyOldMesh->GetName());
+	}
 }
 
 // Called every frame
